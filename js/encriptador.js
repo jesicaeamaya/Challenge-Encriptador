@@ -1,6 +1,6 @@
-var botonEncriptar = document.querySelector(".btn-encriptar");
-var botonDesencriptar = document.querySelector(".btn-desencriptar");
-var muneco = document.querySelector(".contenedormuneco");
+var botonEncriptar = document.querySelector(".btn-encriptador");
+var botonDesencriptar = document.querySelector(".btn-desencriptador");
+var muneco = document.querySelector(".contenedor-muneco");
 var contenedor = document.querySelector(".contenedor-parrafo");
 var resultado = document.querySelector(".texto-resultado");
 
@@ -20,7 +20,7 @@ function desencriptar(){
 }
 
 function recuperarTexto(){
-    var cajatexto = document.querySelector(".cajatexto")
+    var cajatexto = document.querySelector(".caja-texto")
     return cajatexto.value
 }
 
